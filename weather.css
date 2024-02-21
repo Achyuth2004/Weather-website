@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 100%;
+    background-color: #222;
+    font-family: 'open sans',sans-serif;
+    /* background-image: url('https://source.unsplash.com/1600x900/?landscape'); */
+}
+.card{
+    max-width: 380px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background: #000000d0;
+    color: white;   
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    outline: none;
+    background-color: #7c7c7c2b;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 24px;
+    color: #fff;
+    border: none;
+    font-size: 120%;
+}
+button{
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+button:hover{
+    background-color: #7c7c7c8b;
+}
+input{
+    text-transform: uppercase; 
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.temp{
+    margin-left: 15px;
+}
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+ }
+   
+ .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
