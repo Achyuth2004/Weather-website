@@ -1,4 +1,4 @@
-## Weather App
+## Weather App☁️
 
 This repository contains a simple weather application built with HTML, CSS, and JavaScript. It allows users to search for weather information of a particular city.
 
